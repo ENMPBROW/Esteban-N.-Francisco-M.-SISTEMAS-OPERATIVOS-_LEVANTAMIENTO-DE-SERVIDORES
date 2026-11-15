@@ -16,7 +16,7 @@
 - w32tm /config /manualpeerlist:"192.168.3.28,0x8" /syncfromflags:manual /reliable:YES /update  ----->(cambiar la IP del comando por la IP de tu servidor CentOS)
 
 
-- Si sale error al ejecutar el comando anterior, iniciamos el servicio de hora en Windows y volvemos a intentar con los siguientes comandos:
+# Si sale error al ejecutar el comando anterior, iniciamos el servicio de hora en Windows y volvemos a intentar con los siguientes comandos:
 - Set-Service -Name w32time -StartupType Automatic
 - Start-Service -Name w32time
 - w32tm /config /manualpeerlist:"192.168.3.28,0x8" /syncfromflags:manual /reliable:YES /update
