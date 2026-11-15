@@ -30,12 +30,12 @@
 
 # Creación y configuración del usuario exclusivo para FTP
 
-- tail /etc/passwd (sirve para verificar los usuarios recién creados en el sistema)
-- sudo adduser usuario_ftp (sirve para crear una nueva cuenta de usuario)
-- sudo passwd epnbrow_ftp (colocamos la contraseña para el usuario)
-- sudo usermod -s /sbin/nologin usuario_ftp (sirve para desactivar el acceso interactivo a la terminal para este usuario)
-- sudo cat /etc/shells (sirve para mostrar la lista completa de intérpretes de comandos válidos y permitidos)
-- sudo nano /etc/shells (abre el archivo de shells permitidos en el editor nano con permisos de superusuario)
+- tail /etc/passwd ------->(sirve para verificar los usuarios recién creados en el sistema)
+- sudo adduser usuario_ftp ------->(sirve para crear una nueva cuenta de usuario)
+- sudo passwd epnbrow_ftp -------->(colocamos la contraseña para el usuario)
+- sudo usermod -s /sbin/nologin usuario_ftp --------->(sirve para desactivar el acceso interactivo a la terminal para este usuario)
+- sudo cat /etc/shells ------->(sirve para mostrar la lista completa de intérpretes de comandos válidos y permitidos)
+- sudo nano /etc/shells ------->(abre el archivo de shells permitidos en el editor nano con permisos de superusuario)
 - Entramos a la lista, agregamos en la parte final /sbin/nologin, y presionamos Ctrl+O y Ctrl+X para guardar y salir.
 
 # Prueba de conexión local y desde MobaXterm
