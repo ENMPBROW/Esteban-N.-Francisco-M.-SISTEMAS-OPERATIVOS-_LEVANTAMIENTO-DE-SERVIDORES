@@ -25,20 +25,24 @@ Antes de modificar o eliminar siempre se tiene que realizar una copia se segurid
 
 2. Luego en la terminal ejecuta los siguientes comandos:
 
-- sudo cp ~/Imagenes/"LOGO.UCUENCATEC.png" /var/www/html/ucuenca_tec.png
-- sudo chmod 644 /var/www/html/ucuenca_tec.png
-- sudo chown apache:apache /var/www/html/ucuenca_tec.png
-- sudo restorecon -v /var/www/html/ucuenca_tec.png
-- ls -la /var/www/html/ucuenca_tec.png
+- sudo cp ~/Imagenes/"images.jpg" /var/www/html/images.jpg
+- sudo chmod 644 /var/www/html/images.jpg
+- sudo chown apache:apache /var/www/html/images.jpg
+- sudo restorecon -v /var/www/html/images.jpg
+- ls -la /var/www/html/images.jpg
 - sudo nano /usr/share/httpd/noindex/index.html
 
 
-3. <img src="/noindex/images.jpg" alt="UCUENCATEC" style="width:110px; margin-left:15px; vertical-align:middle;"> 
+- `<img src="/noindex/images.jpg" alt="UCUENCATEC" style="width:110px; margin-left:15px; vertical-align:middle;">`
 
-3.1 <img width="1550" height="362" alt="image" src="https://github.com/user-attachments/assets/2b97b190-c209-4688-abee-023426ff9d65" />
+3 <img width="1550" height="362" alt="image" src="https://github.com/user-attachments/assets/2b97b190-c209-4688-abee-023426ff9d65" />
+
+- Para guardar los cambios crtl+O , para salir crtl+x
 
 # Resultado a Obtener
-![Uploading image.png…]()
+<img width="1492" height="855" alt="image" src="https://github.com/user-attachments/assets/27c78b6c-0625-49ad-b11e-1b4755c7a635" />
+
+
 
 
 
