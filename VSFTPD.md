@@ -44,3 +44,6 @@
 - Colocamos el usuario creado (usuario_ftp) y su contraseña; nos deberá salir el mensaje: 230 Login successful.
 - Finalmente, abrimos MobaXterm,
 - En MobaXterm creamos una nueva sesión seleccionando el servicio FTP, introducimos la dirección IP del servidor, el usuario, el puerto 21 y la contraseña que asignamos en la terminal de CentOS.
+
+# Resultado a Obtener
+<img width="1418" height="907" alt="image" src="https://github.com/user-attachments/assets/13366408-e56c-44ab-82f8-dc454b5f9cc5" />
