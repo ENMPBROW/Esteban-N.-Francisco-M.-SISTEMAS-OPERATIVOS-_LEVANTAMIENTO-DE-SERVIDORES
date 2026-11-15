@@ -37,4 +37,8 @@ Antes de modificar o eliminar siempre se tiene que realizar una copia se segurid
 
 3.1 <img width="1550" height="362" alt="image" src="https://github.com/user-attachments/assets/2b97b190-c209-4688-abee-023426ff9d65" />
 
+# Resultado a Obtener
+![Uploading image.png…]()
+
+
 
